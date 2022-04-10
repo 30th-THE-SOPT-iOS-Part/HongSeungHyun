@@ -26,4 +26,8 @@ struct GreetingViewModel {
     func completeButtonDidTap() {
         self.coordinator?.performTransition(to: .dismiss)
     }
+    
+    func disposeObservable() {
+        self.output.$userIdentifier.dispose()
+    }
 }

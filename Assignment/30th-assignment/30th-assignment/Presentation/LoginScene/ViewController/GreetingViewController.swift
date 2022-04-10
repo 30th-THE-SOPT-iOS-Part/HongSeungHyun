@@ -24,6 +24,10 @@ final class GreetingViewController: UIViewController {
         bindViewModel()
     }
     
+    override func viewWillDisappear(_ animated: Bool) {
+        self.greetingViewModel?.disposeObservable()
+    }
+    
     // MARK: - func
     
     @IBAction private func completeButtonDidTap(_ sender: UIButton) {
