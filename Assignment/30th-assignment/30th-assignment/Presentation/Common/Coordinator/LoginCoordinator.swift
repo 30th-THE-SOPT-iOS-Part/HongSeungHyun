@@ -23,7 +23,7 @@ final class LoginCoordinator: BaseCoordinator {
         navigationController.pushViewController(loginViewController, animated: true)
     }
     
-    func performTransition(to transition: Transition, with signUpViewModel: SignUpViewModel? = nil) {
+    func performTransition(to transition: Transition) {
         switch transition {
         case .inputUsername:
             guard let signUpViewController = ViewControllerFactory.viewController(for: .signUp) as? SignUpViewController
@@ -38,7 +38,7 @@ final class LoginCoordinator: BaseCoordinator {
             else { return }
             
             signUpViewController.signUpType = .inputUserPassword
-            signUpViewController.signUpViewModel = signUpViewModel
+            signUpViewController.signUpViewModel = SignUpViewModel(coordinator: self)
             self.navigationController.pushViewController(signUpViewController, animated: true)
         case .greeting:
             guard let greetingViewController = ViewControllerFactory.viewController(for: .greeting) as? GreetingViewController

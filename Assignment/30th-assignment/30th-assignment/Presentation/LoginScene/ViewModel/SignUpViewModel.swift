@@ -23,7 +23,7 @@ struct SignUpViewModel {
         switch signUpViewControllerType {
         case .inputUserName:
             UserInfo.shared.userId = self.input.userInfo
-            self.coordinator?.performTransition(to: .inputUserPassword, with: self)
+            self.coordinator?.performTransition(to: .inputUserPassword)
         case .inputUserPassword:
             UserInfo.shared.userPassword =  self.input.userInfo
             self.coordinator?.performTransition(to: .greeting)
