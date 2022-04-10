@@ -9,6 +9,8 @@ import UIKit
 
 enum TypeOfViewController {
     case login
+    case greeting
+    case signUp
 }
 
 extension TypeOfViewController {
@@ -16,6 +18,10 @@ extension TypeOfViewController {
         switch self {
         case .login:
             return StoryboardRepresentation(bundle: nil, storyboardName: "Login", storyboardId: "LoginViewController")
+        case .signUp:
+            return StoryboardRepresentation(bundle: nil, storyboardName: "SignUp", storyboardId: "SignUpViewController")
+        case .greeting:
+            return StoryboardRepresentation(bundle: nil, storyboardName: "Greeting", storyboardId: "GreetingViewController")
         }
     }
 }
