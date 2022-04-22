@@ -17,6 +17,9 @@
 		4F0AB9F82812E9190053D2D3 /* ReelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0AB9F72812E9190053D2D3 /* ReelsViewController.swift */; };
 		4F0AB9FB2812E93B0053D2D3 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0AB9FA2812E93B0053D2D3 /* SearchViewController.swift */; };
 		4F0AB9FE2812E96E0053D2D3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0AB9FD2812E96E0053D2D3 /* HomeViewController.swift */; };
+		4F0ABA012812ECBC0053D2D3 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0ABA002812ECBC0053D2D3 /* TabBarCoordinator.swift */; };
+		4F0ABA042812EF550053D2D3 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0ABA032812EF550053D2D3 /* MainTabBarController.swift */; };
+		4F0ABA072812F7D80053D2D3 /* MainTabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0ABA062812F7D80053D2D3 /* MainTabBar.storyboard */; };
 		4F44ED4F28007E360071437F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F44ED4E28007E360071437F /* AppDelegate.swift */; };
 		4F44ED5128007E360071437F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F44ED5028007E360071437F /* SceneDelegate.swift */; };
 		4F44ED5328007E360071437F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F44ED5228007E360071437F /* LoginViewController.swift */; };
@@ -53,6 +56,9 @@
 		4F0AB9F72812E9190053D2D3 /* ReelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelsViewController.swift; sourceTree = "<group>"; };
 		4F0AB9FA2812E93B0053D2D3 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		4F0AB9FD2812E96E0053D2D3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4F0ABA002812ECBC0053D2D3 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
+		4F0ABA032812EF550053D2D3 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		4F0ABA062812F7D80053D2D3 /* MainTabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainTabBar.storyboard; sourceTree = "<group>"; };
 		4F44ED4B28007E360071437F /* 30th-assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "30th-assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F44ED4E28007E360071437F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F44ED5028007E360071437F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -216,6 +222,23 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		4F0ABA052812F7C90053D2D3 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				4F0ABA082812F7DE0053D2D3 /* Storyboard */,
+				4F0ABA032812EF550053D2D3 /* MainTabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		4F0ABA082812F7DE0053D2D3 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4F0ABA062812F7D80053D2D3 /* MainTabBar.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
 		4F44ED4228007E360071437F = {
 			isa = PBXGroup;
 			children = (
@@ -266,6 +289,7 @@
 		4F44ED64280095C10071437F /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				4F0ABA052812F7C90053D2D3 /* TabBar */,
 				4F0AB9DF2812E7C40053D2D3 /* MyPageScene */,
 				4F0AB9DE2812E7BB0053D2D3 /* ShopScene */,
 				4F0AB9DD2812E7A90053D2D3 /* ReelsScene */,
@@ -416,6 +440,7 @@
 				4F44EDCD280216700071437F /* BaseCoordinator.swift */,
 				4F44EDCF280217E30071437F /* AppCoordinator.swift */,
 				4F44EDD12802183E0071437F /* LoginCoordinator.swift */,
+				4F0ABA002812ECBC0053D2D3 /* TabBarCoordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -488,6 +513,7 @@
 			files = (
 				4FD8FB7A2802B137009BE020 /* Greeting.storyboard in Resources */,
 				4F0AB9EF2812E8910053D2D3 /* Home.storyboard in Resources */,
+				4F0ABA072812F7D80053D2D3 /* MainTabBar.storyboard in Resources */,
 				4F0AB9E72812E8610053D2D3 /* MyPage.storyboard in Resources */,
 				4F0AB9EB2812E87F0053D2D3 /* Reels.storyboard in Resources */,
 				4F44ED6C280098A00071437F /* Login.storyboard in Resources */,
@@ -508,6 +534,8 @@
 			files = (
 				4F0AB9F22812E8AE0053D2D3 /* MyPageViewController.swift in Sources */,
 				4FD8FB7E2802B6B4009BE020 /* GreetingViewModel.swift in Sources */,
+				4F0ABA042812EF550053D2D3 /* MainTabBarController.swift in Sources */,
+				4F0ABA012812ECBC0053D2D3 /* TabBarCoordinator.swift in Sources */,
 				4F44ED6E280098FC0071437F /* LoginViewModel.swift in Sources */,
 				4F44EDC22801FF280071437F /* InstaTextField.swift in Sources */,
 				4F0AB9F82812E9190053D2D3 /* ReelsViewController.swift in Sources */,

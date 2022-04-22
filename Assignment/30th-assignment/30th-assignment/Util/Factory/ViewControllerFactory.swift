@@ -11,6 +11,7 @@ enum TypeOfViewController {
     case greeting
     case home
     case login
+    case mainTab
     case myPage
     case reels
     case search
@@ -27,6 +28,8 @@ extension TypeOfViewController {
             return StoryboardRepresentation(bundle: nil, storyboardName: "Home", storyboardId: "HomeViewController")
         case .login:
             return StoryboardRepresentation(bundle: nil, storyboardName: "Login", storyboardId: "LoginViewController")
+        case .mainTab:
+            return StoryboardRepresentation(bundle: nil, storyboardName: "MainTabBar", storyboardId: "MainTabBarController")
         case .myPage:
             return StoryboardRepresentation(bundle: nil, storyboardName: "MyPage", storyboardId: "MyPageViewController")
         case .reels:
