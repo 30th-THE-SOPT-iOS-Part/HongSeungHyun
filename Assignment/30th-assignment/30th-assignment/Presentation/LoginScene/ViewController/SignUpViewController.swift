@@ -7,11 +7,6 @@
 
 import UIKit
 
-enum SignUpViewControllerType {
-    case inputUserName
-    case inputUserPassword
-}
-
 final class SignUpViewController: UIViewController {
     
     // MARK: - @IBOutlet
@@ -26,6 +21,11 @@ final class SignUpViewController: UIViewController {
     }
     
     // MARK: - property
+    
+    enum SignUpViewControllerType {
+        case inputUserName
+        case inputUserPassword
+    }
     
     var signUpType: SignUpViewControllerType?
     var signUpViewModel: SignUpViewModel?

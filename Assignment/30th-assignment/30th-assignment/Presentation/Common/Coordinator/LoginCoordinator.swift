@@ -7,14 +7,15 @@
 
 import UIKit
 
-enum Transition {
-    case inputUsername
-    case inputUserPassword
-    case greeting
-    case dismiss
-}
-
 final class LoginCoordinator: BaseCoordinator {
+    
+    enum Transition {
+        case inputUsername
+        case inputUserPassword
+        case greeting
+        case dismiss
+    }
+    
     override func start() {
         guard let loginViewController = ViewControllerFactory.viewController(for: .login) as? LoginViewController
         else { return }
