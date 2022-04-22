@@ -24,6 +24,10 @@ final class GreetingViewModel {
     }
     
     func completeButtonDidTap() {
+        self.coordinator?.performTransition(to: .tabBar)
+    }
+    
+    func anotherAcountLoginButtonDidTap() {
         self.coordinator?.performTransition(to: .dismiss)
     }
     

@@ -35,6 +35,7 @@ final class GreetingViewController: UIViewController {
     }
     
     @IBAction func anotherAcountLoginButtonDidTap(_ sender: UIButton) {
+        greetingViewModel?.anotherAcountLoginButtonDidTap()
     }
     
     @MainActor private func bindViewModel() {

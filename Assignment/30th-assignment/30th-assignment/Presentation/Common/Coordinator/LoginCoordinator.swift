@@ -14,6 +14,7 @@ final class LoginCoordinator: BaseCoordinator {
         case inputUserPassword
         case greeting
         case dismiss
+        case tabBar
     }
     
     override func start() {
@@ -51,6 +52,10 @@ final class LoginCoordinator: BaseCoordinator {
         case .dismiss:
             self.navigationController.popToRootViewController(animated: true)
             self.navigationController.dismiss(animated: true)
+        case .tabBar:
+            let tabBarController = ViewControllerFactory.viewController(for: .mainTab)
+            tabBarController.modalPresentationStyle = .fullScreen
+            self.navigationController.present(tabBarController, animated: true)
         }
     }
 }
