@@ -34,6 +34,9 @@ final class GreetingViewController: UIViewController {
         greetingViewModel?.completeButtonDidTap()
     }
     
+    @IBAction func anotherAcountLoginButtonDidTap(_ sender: UIButton) {
+    }
+    
     @MainActor private func bindViewModel() {
         self.greetingViewModel?.output.$userIdentifier.bind(fire: true) { (value) in
             self.greetingLabel.text = "\(value)님, Instagram에\n 오신 것을 환영합니다."

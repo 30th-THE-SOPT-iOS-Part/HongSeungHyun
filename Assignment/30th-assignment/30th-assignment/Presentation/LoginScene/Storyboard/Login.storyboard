@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -64,7 +64,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="비밀번호를 잊으셨나요?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w99-gZ-RsX">
-                                <rect key="frame" x="281" y="374" width="123" height="16"/>
+                                <rect key="frame" x="10" y="374" width="123" height="16"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
                                 <color key="textColor" systemColor="linkColor"/>
                                 <nil key="highlightedColor"/>
@@ -109,7 +109,6 @@
                             <constraint firstItem="f0X-rf-WXe" firstAttribute="leading" secondItem="UrI-xJ-VST" secondAttribute="leading" id="Agh-00-Rxx"/>
                             <constraint firstItem="UrI-xJ-VST" firstAttribute="top" secondItem="f9a-dC-CRh" secondAttribute="top" constant="100" id="D9p-Ej-a0s"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="UrI-xJ-VST" secondAttribute="trailing" constant="10" id="Flw-9e-Wcd"/>
-                            <constraint firstItem="w99-gZ-RsX" firstAttribute="trailing" secondItem="UrI-xJ-VST" secondAttribute="trailing" id="MdV-xD-Txk"/>
                             <constraint firstItem="f9a-dC-CRh" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="100" id="RCi-A3-HGK"/>
                             <constraint firstItem="f9a-dC-CRh" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="dUB-kS-DBf"/>
                             <constraint firstItem="kWe-4b-4M3" firstAttribute="centerX" secondItem="f0X-rf-WXe" secondAttribute="centerX" id="g3i-0y-DA1"/>
@@ -118,6 +117,7 @@
                             <constraint firstItem="mOC-rP-dm3" firstAttribute="top" secondItem="UrI-xJ-VST" secondAttribute="bottom" constant="15" id="mcC-v8-GBh"/>
                             <constraint firstItem="f0X-rf-WXe" firstAttribute="top" secondItem="w99-gZ-RsX" secondAttribute="bottom" constant="30" id="pyx-kY-hCo"/>
                             <constraint firstItem="kWe-4b-4M3" firstAttribute="top" secondItem="f0X-rf-WXe" secondAttribute="bottom" constant="40" id="qzJ-QL-kE5"/>
+                            <constraint firstItem="w99-gZ-RsX" firstAttribute="leading" secondItem="UrI-xJ-VST" secondAttribute="leading" id="u19-eX-sKc"/>
                             <constraint firstItem="mOC-rP-dm3" firstAttribute="leading" secondItem="UrI-xJ-VST" secondAttribute="leading" id="z0M-yV-ZRU"/>
                             <constraint firstItem="mOC-rP-dm3" firstAttribute="trailing" secondItem="UrI-xJ-VST" secondAttribute="trailing" id="zWo-N0-91R"/>
                         </constraints>
