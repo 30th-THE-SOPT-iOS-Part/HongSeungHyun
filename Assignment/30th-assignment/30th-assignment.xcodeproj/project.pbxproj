@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F0AB9E72812E8610053D2D3 /* MyPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0AB9E62812E8610053D2D3 /* MyPage.storyboard */; };
+		4F0AB9E92812E8770053D2D3 /* Shop.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0AB9E82812E8770053D2D3 /* Shop.storyboard */; };
+		4F0AB9EB2812E87F0053D2D3 /* Reels.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0AB9EA2812E87F0053D2D3 /* Reels.storyboard */; };
+		4F0AB9ED2812E88A0053D2D3 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0AB9EC2812E88A0053D2D3 /* Search.storyboard */; };
+		4F0AB9EF2812E8910053D2D3 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0AB9EE2812E8910053D2D3 /* Home.storyboard */; };
+		4F0AB9F22812E8AE0053D2D3 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0AB9F12812E8AE0053D2D3 /* MyPageViewController.swift */; };
+		4F0AB9F52812E8D50053D2D3 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0AB9F42812E8D50053D2D3 /* ShopViewController.swift */; };
+		4F0AB9F82812E9190053D2D3 /* ReelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0AB9F72812E9190053D2D3 /* ReelsViewController.swift */; };
+		4F0AB9FB2812E93B0053D2D3 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0AB9FA2812E93B0053D2D3 /* SearchViewController.swift */; };
+		4F0AB9FE2812E96E0053D2D3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0AB9FD2812E96E0053D2D3 /* HomeViewController.swift */; };
 		4F44ED4F28007E360071437F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F44ED4E28007E360071437F /* AppDelegate.swift */; };
 		4F44ED5128007E360071437F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F44ED5028007E360071437F /* SceneDelegate.swift */; };
 		4F44ED5328007E360071437F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F44ED5228007E360071437F /* LoginViewController.swift */; };
@@ -33,6 +43,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F0AB9E62812E8610053D2D3 /* MyPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyPage.storyboard; sourceTree = "<group>"; };
+		4F0AB9E82812E8770053D2D3 /* Shop.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Shop.storyboard; sourceTree = "<group>"; };
+		4F0AB9EA2812E87F0053D2D3 /* Reels.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Reels.storyboard; sourceTree = "<group>"; };
+		4F0AB9EC2812E88A0053D2D3 /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		4F0AB9EE2812E8910053D2D3 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		4F0AB9F12812E8AE0053D2D3 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		4F0AB9F42812E8D50053D2D3 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		4F0AB9F72812E9190053D2D3 /* ReelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelsViewController.swift; sourceTree = "<group>"; };
+		4F0AB9FA2812E93B0053D2D3 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		4F0AB9FD2812E96E0053D2D3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4F44ED4B28007E360071437F /* 30th-assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "30th-assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F44ED4E28007E360071437F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F44ED5028007E360071437F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +91,131 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F0AB9DB2812E6BB0053D2D3 /* HomeScene */ = {
+			isa = PBXGroup;
+			children = (
+				4F0AB9FC2812E95E0053D2D3 /* ViewController */,
+				4F0AB9E52812E8250053D2D3 /* Storyboard */,
+			);
+			path = HomeScene;
+			sourceTree = "<group>";
+		};
+		4F0AB9DC2812E79C0053D2D3 /* SearchScene */ = {
+			isa = PBXGroup;
+			children = (
+				4F0AB9F92812E9300053D2D3 /* ViewController */,
+				4F0AB9E42812E81C0053D2D3 /* Storyboard */,
+			);
+			path = SearchScene;
+			sourceTree = "<group>";
+		};
+		4F0AB9DD2812E7A90053D2D3 /* ReelsScene */ = {
+			isa = PBXGroup;
+			children = (
+				4F0AB9F62812E90A0053D2D3 /* ViewController */,
+				4F0AB9E32812E8160053D2D3 /* Storyboard */,
+			);
+			path = ReelsScene;
+			sourceTree = "<group>";
+		};
+		4F0AB9DE2812E7BB0053D2D3 /* ShopScene */ = {
+			isa = PBXGroup;
+			children = (
+				4F0AB9F32812E8C30053D2D3 /* ViewController */,
+				4F0AB9E22812E8110053D2D3 /* Storyboard */,
+			);
+			path = ShopScene;
+			sourceTree = "<group>";
+		};
+		4F0AB9DF2812E7C40053D2D3 /* MyPageScene */ = {
+			isa = PBXGroup;
+			children = (
+				4F0AB9F02812E89E0053D2D3 /* ViewController */,
+				4F0AB9E12812E8090053D2D3 /* Storyboard */,
+			);
+			path = MyPageScene;
+			sourceTree = "<group>";
+		};
+		4F0AB9E12812E8090053D2D3 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4F0AB9E62812E8610053D2D3 /* MyPage.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		4F0AB9E22812E8110053D2D3 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4F0AB9E82812E8770053D2D3 /* Shop.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		4F0AB9E32812E8160053D2D3 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4F0AB9EA2812E87F0053D2D3 /* Reels.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		4F0AB9E42812E81C0053D2D3 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4F0AB9EC2812E88A0053D2D3 /* Search.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		4F0AB9E52812E8250053D2D3 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4F0AB9EE2812E8910053D2D3 /* Home.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		4F0AB9F02812E89E0053D2D3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4F0AB9F12812E8AE0053D2D3 /* MyPageViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4F0AB9F32812E8C30053D2D3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4F0AB9F42812E8D50053D2D3 /* ShopViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4F0AB9F62812E90A0053D2D3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4F0AB9F72812E9190053D2D3 /* ReelsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4F0AB9F92812E9300053D2D3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4F0AB9FA2812E93B0053D2D3 /* SearchViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4F0AB9FC2812E95E0053D2D3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4F0AB9FD2812E96E0053D2D3 /* HomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		4F44ED4228007E360071437F = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +266,11 @@
 		4F44ED64280095C10071437F /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				4F0AB9DF2812E7C40053D2D3 /* MyPageScene */,
+				4F0AB9DE2812E7BB0053D2D3 /* ShopScene */,
+				4F0AB9DD2812E7A90053D2D3 /* ReelsScene */,
+				4F0AB9DC2812E79C0053D2D3 /* SearchScene */,
+				4F0AB9DB2812E6BB0053D2D3 /* HomeScene */,
 				4F44EDC8280212F60071437F /* Common */,
 				4F44ED65280096070071437F /* LoginScene */,
 			);
@@ -337,8 +487,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FD8FB7A2802B137009BE020 /* Greeting.storyboard in Resources */,
+				4F0AB9EF2812E8910053D2D3 /* Home.storyboard in Resources */,
+				4F0AB9E72812E8610053D2D3 /* MyPage.storyboard in Resources */,
+				4F0AB9EB2812E87F0053D2D3 /* Reels.storyboard in Resources */,
 				4F44ED6C280098A00071437F /* Login.storyboard in Resources */,
+				4F0AB9ED2812E88A0053D2D3 /* Search.storyboard in Resources */,
 				4F44ED5B28007E380071437F /* LaunchScreen.storyboard in Resources */,
+				4F0AB9E92812E8770053D2D3 /* Shop.storyboard in Resources */,
 				4F44ED5828007E380071437F /* Assets.xcassets in Resources */,
 				4F44ED5628007E360071437F /* SignUp.storyboard in Resources */,
 			);
@@ -351,17 +506,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F0AB9F22812E8AE0053D2D3 /* MyPageViewController.swift in Sources */,
 				4FD8FB7E2802B6B4009BE020 /* GreetingViewModel.swift in Sources */,
 				4F44ED6E280098FC0071437F /* LoginViewModel.swift in Sources */,
 				4F44EDC22801FF280071437F /* InstaTextField.swift in Sources */,
+				4F0AB9F82812E9190053D2D3 /* ReelsViewController.swift in Sources */,
 				4F44EDD22802183E0071437F /* LoginCoordinator.swift in Sources */,
+				4F0AB9FE2812E96E0053D2D3 /* HomeViewController.swift in Sources */,
 				4FD8FB842802C65E009BE020 /* SignUpViewModel.swift in Sources */,
 				4F44EDD0280217E30071437F /* AppCoordinator.swift in Sources */,
 				4FD8FB822802C140009BE020 /* SignUpViewController.swift in Sources */,
 				4F44ED7228009A490071437F /* ViewControllerFactory.swift in Sources */,
 				4F44ED5328007E360071437F /* LoginViewController.swift in Sources */,
 				4F44ED7B2800B6B40071437F /* ImageLiteral.swift in Sources */,
+				4F0AB9FB2812E93B0053D2D3 /* SearchViewController.swift in Sources */,
 				4F44ED4F28007E360071437F /* AppDelegate.swift in Sources */,
+				4F0AB9F52812E8D50053D2D3 /* ShopViewController.swift in Sources */,
 				4F44EDCC280213270071437F /* Coordinator.swift in Sources */,
 				4F44EDCE280216700071437F /* BaseCoordinator.swift in Sources */,
 				4FD8FB7C2802B35F009BE020 /* GreetingViewController.swift in Sources */,
