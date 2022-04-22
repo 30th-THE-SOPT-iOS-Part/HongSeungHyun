@@ -8,20 +8,35 @@
 import UIKit
 
 enum TypeOfViewController {
-    case login
     case greeting
+    case home
+    case login
+    case myPage
+    case reels
+    case search
+    case shop
     case signUp
 }
 
 extension TypeOfViewController {
     func storyboardRepresentation() -> StoryboardRepresentation {
         switch self {
-        case .login:
-            return StoryboardRepresentation(bundle: nil, storyboardName: "Login", storyboardId: "LoginViewController")
-        case .signUp:
-            return StoryboardRepresentation(bundle: nil, storyboardName: "SignUp", storyboardId: "SignUpViewController")
         case .greeting:
             return StoryboardRepresentation(bundle: nil, storyboardName: "Greeting", storyboardId: "GreetingViewController")
+        case .home:
+            return StoryboardRepresentation(bundle: nil, storyboardName: "Home", storyboardId: "HomeViewController")
+        case .login:
+            return StoryboardRepresentation(bundle: nil, storyboardName: "Login", storyboardId: "LoginViewController")
+        case .myPage:
+            return StoryboardRepresentation(bundle: nil, storyboardName: "MyPage", storyboardId: "MyPageViewController")
+        case .reels:
+            return StoryboardRepresentation(bundle: nil, storyboardName: "Reels", storyboardId: "ReelsViewController")
+        case .search:
+            return StoryboardRepresentation(bundle: nil, storyboardName: "Search", storyboardId: "SearchViewController")
+        case .shop:
+            return StoryboardRepresentation(bundle: nil, storyboardName: "Shop", storyboardId: "ShopViewController")
+        case .signUp:
+            return StoryboardRepresentation(bundle: nil, storyboardName: "SignUp", storyboardId: "SignUpViewController")
         }
     }
 }
