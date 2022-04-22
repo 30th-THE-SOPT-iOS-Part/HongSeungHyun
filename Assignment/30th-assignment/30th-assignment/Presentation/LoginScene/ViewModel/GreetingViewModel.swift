@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct GreetingViewModel {
+final class GreetingViewModel {
     struct Output {
         @Observable var userIdentifier = ""
         @Observable var userPassword = ""

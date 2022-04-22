@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct SignUpViewModel {
+final class SignUpViewModel {
     struct Input {
         var userInfo: String?
     }
@@ -19,7 +19,7 @@ struct SignUpViewModel {
         self.coordinator = coordinator
     }
     
-    mutating func nextButtonDidTap(for signUpViewControllerType: SignUpViewController.SignUpViewControllerType) {
+    func nextButtonDidTap(for signUpViewControllerType: SignUpViewController.SignUpViewControllerType) {
         switch signUpViewControllerType {
         case .inputUserName:
             UserInfo.shared.userId = self.input.userInfo

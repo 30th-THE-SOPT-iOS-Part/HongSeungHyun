@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct LoginViewModel {
+final class LoginViewModel {
     struct Input {
         var userIdentifier: String?
         var userPassword: String?
